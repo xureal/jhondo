@@ -8,9 +8,9 @@ import config
 def profiles(x,y):
 
     choices = {
-        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611},
-        'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989},
-        'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904},
+        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530},
+        'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989, 'Ali' : 4529198},
+        'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904, 'Ali' : 4541315},
         'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150},
         'Reebok' : {'Andy': 3038017, 'Varun' : 3033621, 'Janani' : 3034081},
         'EA' : {'Andy': 2556446, 'Varun' : 2559822, 'Janani' : 4126377},
@@ -20,11 +20,11 @@ def profiles(x,y):
         'ALJ' : {'Andy': 2907526, 'Varun' : 2904780, 'Janani' : 2903983},
         'Net-a-porter' : {'Andy': 2912422, 'Varun' : 2914609, 'Janani' : 2914607},
         'Nestle' : {'Andy': 4288811, 'Varun' : 4291247, 'Janani' : 4290977},
-        'Mondelez' : {'Andy': 4003138, 'Varun' : 4001486, 'Janani' : 4004266},
+        'Mondelez' : {'Andy': 4003138, 'Varun' : 4001486, 'Janani' : 4004266, 'Ali' : 4491075},
         'Maserati' : {'Andy': 4132905, 'Varun' : 4148575},
-        'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605},
-        'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925},
-        'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083},
+        'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605, 'Ali' : 4532032},
+        'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106},
+        'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035},
  }
     try:
         profile_id = choices[x][y]
