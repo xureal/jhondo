@@ -52,6 +52,8 @@ def advertisers(x):
         'bmw ksa' : [6355538,9326426,profiles('Zenith',config.user)],
         'bmw abu dhabi' : [6344670,9615179,profiles('Zenith',config.user)],
         'bmw regional' : [6342793,9202283,profiles('Zenith',config.user)],
+        'bmw bahrain' : [6344968,22068603,profiles('Zenith',config.user)],
+        'bmw qatar' : [6341285,22121234,profiles('Zenith',config.user)],
         'braun pg' : [4458193,4589087,profiles('Starcom',config.user)],
         'ccf' : [8150373,21197280,profiles('Nestle',config.user)],
         'cipriani' : [5450404,9483570,profiles('Starcom',config.user)],
