@@ -78,6 +78,7 @@ def advertisers(x):
         'mini regional' : [6679901,9484715,profiles('Zenith',config.user)],
         'mini qatar' : [6678304,22187186,profiles('Zenith',config.user)],
         'nbo' : [8141036,20768946,profiles('Zenith',config.user)],
+        'nbk' : [8076563,21084166,profiles('Zenith',config.user)],
         'omantel' : [6468900,9143119,profiles('Zenith',config.user)],
         'ooredoo' : [5640709,8586068,profiles('Starcom',config.user)],
         'osn' : [3293958,831457,profiles('Starcom',config.user)],
