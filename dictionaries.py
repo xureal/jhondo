@@ -25,6 +25,7 @@ def profiles(x,y):
         'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605, 'Ali' : 4532032},
         'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106},
         'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035},
+        'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None},
  }
     try:
         profile_id = choices[x][y]
@@ -80,7 +81,8 @@ def advertisers(x):
         'nbo' : [8141036,20768946,profiles('Zenith',config.user)],
         'nbk' : [8076563,21084166,profiles('Zenith',config.user)],
         'omantel' : [6468900,9143119,profiles('Zenith',config.user)],
-        'ooredoo' : [5640709,8586068,profiles('Starcom',config.user)],
+        'ooredoo oman' : [5640709,8586068,profiles('Starcom',config.user)],
+        'ooredoo kuwait' : [8239298,20858154,profiles('Zenith',config.user)],
         'osn' : [3293958,831457,profiles('Starcom',config.user)],
         'rajhi' : [4290372,4062156,profiles('Starcom',config.user)],
         'royal jordan' : [8374103,21452990,profiles('Starcom',config.user)],
@@ -98,7 +100,22 @@ def advertisers(x):
         'yas marina' : [5452848,9340317,profiles('Starcom',config.user)],
         'ymc' : [4157783,4793721,profiles('Starcom',config.user)],
         'yww' : [5308461,8309033,profiles('Starcom',config.user)],
-        'zwz' : [6073556,8798911,profiles('Starcom',config.user)]
+        'zwz' : [6073556,8798911,profiles('Starcom',config.user)],
+        'samsung' : [8379943, 21699157, profiles('Samsung',config.user)],
+        'mcdel jed' : [8300924, 21318980, profiles('McDonalds',config.user)],
+        'mcdel riy' : [8300609, 21327596, profiles('McDonalds',config.user)],
+        'mcdel uae' : [8308266, 21172201, profiles('McDonalds',config.user)],
+        'mcdel bah' : [8307993, 21284176, profiles('McDonalds',config.user)],
+        'mcdel qat' : [8306964, 21300901, profiles('McDonalds',config.user)],
+        'mcdel kuw' : [8312584, 21284194, profiles('McDonalds',config.user)],
+        'mcdon jed' : [8313030, 21849108, profiles('McDonalds',config.user)],
+        'mcdon riy' : [8315428, 21467787, profiles('McDonalds',config.user)],
+        'mcdon uae' : [8318479, 21196933, profiles('McDonalds',config.user)],
+        'mcdon bah' : [8318482, 21524276, profiles('McDonalds',config.user)],
+        'mcdon qat' : [8315431, 21469569, profiles('McDonalds',config.user)],
+        'mcdon kuw' : [8305037, 22173339, profiles('McDonalds',config.user)],
+        'mcdon omn' : [8318476, 21512890, profiles('McDonalds',config.user)]
+
     }
     try:
         aid=choices[x][0]
