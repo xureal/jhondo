@@ -115,7 +115,8 @@ def advertisers(x):
         'mcdon qat' : [8315431, 21469569, profiles('McDonalds',config.user)],
         'mcdon kuw' : [8305037, 22173339, profiles('McDonalds',config.user)],
         'mcdon omn' : [8318476, 21512890, profiles('McDonalds',config.user)],
-        'rsa' : [2673419, 82667, profiles('Starcom',config.user)]
+        'rsa' : [2673419, 82667, profiles('Starcom',config.user)],
+        'enbd' : [3712847,1172757,profiles('Starcom',config.user)]
 
     }
     try:
