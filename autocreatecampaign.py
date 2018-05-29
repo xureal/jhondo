@@ -81,11 +81,7 @@ for k in range(0,len(sdates_string),1):
 sdate = str(min(sdates_date))
 edate = str(max(edates_date))
 
-#Change the filename is using the adidas taxonomy (they have forward slashes in their naming)
-if 'adidas' in filename:
-	campaign_name = filename[:-9]+'/'+cname[-5:]
-else:
-    campaign_name = filename[:-4]
+campaign_name = filename[:-4]
 
 create_campaign = DFA.campaigns().insert(body={'advertiserId':advertiser_id,'name':campaign_name,'startDate':sdate,'endDate':edate,'defaultLandingPageId':campaign_url},profileId=profile_id).execute()
 print('\n')
