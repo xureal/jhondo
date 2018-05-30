@@ -73,6 +73,7 @@ def advertisers(x):
         'louvre' : [8413322,21552647,profiles('Abu Dhabi Tourism',config.user)],
         'luxury clothing company' : [8029407,20114006,profiles('Starcom',config.user)],
         'maf' : [2531650,96420,profiles('Starcom',config.user)],
+        'maf communities' : [8474268,21760737,profiles('Starcom',config.user)],
         'meydan' : [3973441, 2754285, profiles('Starcom',config.user)],
         'mini abu dhabi' : [6678505,20027463,profiles('Zenith',config.user)],
         'mini dubai' : [6678302,10012833,profiles('Zenith',config.user)],
