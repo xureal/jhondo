@@ -26,6 +26,7 @@ def profiles(x,y):
         'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106},
         'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035},
         'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None},
+        'Kering' : {'Andy': None, 'Varun' : 1471107, 'Janani' : None, 'Ali' : None},
  }
     try:
         profile_id = choices[x][y]
@@ -116,7 +117,8 @@ def advertisers(x):
         'mcdon kuw' : [8305037, 22173339, profiles('McDonalds',config.user)],
         'mcdon omn' : [8318476, 21512890, profiles('McDonalds',config.user)],
         'rsa' : [2673419, 82667, profiles('Starcom',config.user)],
-        'enbd' : [3712847,1172757,profiles('Starcom',config.user)]
+        'enbd' : [3712847,1172757,profiles('Starcom',config.user)],
+        'gucci' : [4569123,5442978,profiles('Kering',config.user)]
 
     }
     try:
