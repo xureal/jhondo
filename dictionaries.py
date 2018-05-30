@@ -39,6 +39,7 @@ def advertisers(x):
 
     choices = {
         'abu dhabi culture' : [8420115,21552881,profiles('Abu Dhabi Tourism',config.user)],
+        'al zahia' : [4527228,4885521,profiles('Starcom',config.user)],
         'acer' : [6634729,9452003,profiles('Zenith',config.user)],
         'adidas brand running' : [6524017,10048595,profiles('Adidas',config.user)],
         'adidas brand football' : [6523076,20361749,profiles('Adidas',config.user)],
