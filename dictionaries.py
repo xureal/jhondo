@@ -121,7 +121,8 @@ def advertisers(x):
         'rsa' : [2673419, 82667, profiles('Starcom',config.user)],
         'enbd' : [3712847,1172757,profiles('Starcom',config.user)],
         'gucci' : [4569123,5442978,profiles('Kering',config.user)],
-        'maggi' : [6619061,9386214,profiles('Nestle',config.user)]
+        'maggi' : [6619061,9386214,profiles('Nestle',config.user)],
+        'nap' : [6206879,9121587,profiles('Net-a-porter',config.user)]
 
     }
     try:
