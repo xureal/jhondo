@@ -120,7 +120,8 @@ def advertisers(x):
         'mcdon omn' : [8318476, 21512890, profiles('McDonalds',config.user)],
         'rsa' : [2673419, 82667, profiles('Starcom',config.user)],
         'enbd' : [3712847,1172757,profiles('Starcom',config.user)],
-        'gucci' : [4569123,5442978,profiles('Kering',config.user)]
+        'gucci' : [4569123,5442978,profiles('Kering',config.user)],
+        'maggi' : [6619061,9386214,profiles('Nestle',config.user)]
 
     }
     try:
