@@ -68,7 +68,7 @@ for creative in creative_set: #Go through the creative folder and copy all match
 for root, dirs, files in os.walk(config.upload_folder, topdown=True): #Go through the upload folder and check the dimensions of the files + create the necessary default creatives
     if len(files)>0:
         for name in files:
-            if not name.endswith('.zip') and not name.endswith('.mp4'):
+            if not name.lower().endswith('.zip') and not name.lower().endswith('.mp4'):
                 with Image.open(config.creative_folder+'\\'+name) as im:
                     width, height = im.size
                     match = re.search(sizePattern, name).group()
