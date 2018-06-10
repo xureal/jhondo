@@ -11,17 +11,17 @@ def profiles(x,y):
         'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530},
         'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989, 'Ali' : 4529198},
         'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904, 'Ali' : 4541315},
-        'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150},
-        'Reebok' : {'Andy': 3038017, 'Varun' : 3033621, 'Janani' : 3034081},
-        'EA' : {'Andy': 2556446, 'Varun' : 2559822, 'Janani' : 4126377},
-        'Kraft' : {'Andy': 4271839, 'Varun' : 4284476, 'Janani' : 4261017},
-        'Etihad' : {'Andy': 1967569, 'Varun' : 1729030},
-        'Citibank' : {'Andy': 2649058, 'Varun' : 2646069, 'Janani' : 2794746},
-        'ALJ' : {'Andy': 2907526, 'Varun' : 2904780, 'Janani' : 2903983},
-        'Net-a-porter' : {'Andy': 2912422, 'Varun' : 2914609, 'Janani' : 2914607},
-        'Nestle' : {'Andy': 4288811, 'Varun' : 4291247, 'Janani' : 4290977},
+        'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150, 'Ali' : None},
+        'Reebok' : {'Andy': 3038017, 'Varun' : 3033621, 'Janani' : 3034081, 'Ali' : None},
+        'EA' : {'Andy': 2556446, 'Varun' : 2559822, 'Janani' : 4126377, 'Ali' : None},
+        'Kraft' : {'Andy': 4271839, 'Varun' : 4284476, 'Janani' : 4261017, 'Ali' : None},
+        'Etihad' : {'Andy': 1967569, 'Varun' : 1729030, 'Janani' : None, 'Ali' : None},
+        'Citibank' : {'Andy': 2649058, 'Varun' : 2646069, 'Janani' : 2794746, 'Ali' : None},
+        'ALJ' : {'Andy': 2907526, 'Varun' : 2904780, 'Janani' : 2903983, 'Ali' : None},
+        'Net-a-porter' : {'Andy': 2912422, 'Varun' : 2914609, 'Janani' : 2914607, 'Ali' : None},
+        'Nestle' : {'Andy': 4288811, 'Varun' : 4291247, 'Janani' : 4290977, 'Ali' : None},
         'Mondelez' : {'Andy': 4003138, 'Varun' : 4001486, 'Janani' : 4004266, 'Ali' : 4491075},
-        'Maserati' : {'Andy': 4132905, 'Varun' : 4148575},
+        'Maserati' : {'Andy': 4132905, 'Varun' : 4148575, 'Janani' : None, 'Ali' : None},
         'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605, 'Ali' : 4532032},
         'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106},
         'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035},
@@ -122,7 +122,8 @@ def advertisers(x):
         'enbd' : [3712847,1172757,profiles('Starcom',config.user)],
         'gucci' : [4569123,5442978,profiles('Kering',config.user)],
         'maggi' : [6619061,9386214,profiles('Nestle',config.user)],
-        'nap' : [6206879,9121587,profiles('Net-a-porter',config.user)]
+        'nap' : [6206879,9121587,profiles('Net-a-porter',config.user)],
+        'cafe najjar' : [5994018,21593623,profiles('Starcom',config.user)]
 
     }
     try:
