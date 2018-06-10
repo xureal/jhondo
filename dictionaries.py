@@ -123,8 +123,8 @@ def advertisers(x):
         'gucci' : [4569123,5442978,profiles('Kering',config.user)],
         'maggi' : [6619061,9386214,profiles('Nestle',config.user)],
         'nap' : [6206879,9121587,profiles('Net-a-porter',config.user)],
-        'cafe najjar' : [5994018,21593623,profiles('Starcom',config.user)]
-
+        'cafe najjar' : [5994018,21593623,profiles('Starcom',config.user)],
+        'toyota retail' : [8616571,22115836,profiles('ALJ',config.user)]
     }
     try:
         aid=choices[x][0]
