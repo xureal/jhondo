@@ -91,6 +91,7 @@ def advertisers(x):
         'royal jordan' : [8374103,21452990,profiles('Starcom',config.user)],
         'samba' : [3238262,503637,profiles('Zenith',config.user)],
         'tca' : [8242965,20877913,profiles('Abu Dhabi Tourism',config.user)],
+        'tca master' : [8242311,None,profiles('Abu Dhabi Tourism',config.user)],
         'virgin mobile' : [6142427,10095060,profiles('Starcom',config.user)],
         'visa ecom' : [5219109,7782121, profiles('Visa',config.user)],
         'visa ecom parent' : [5197399,None, profiles('Visa',config.user)],
