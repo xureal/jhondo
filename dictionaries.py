@@ -125,7 +125,8 @@ def advertisers(x):
         'maggi' : [6619061,9386214,profiles('Nestle',config.user)],
         'nap' : [6206879,9121587,profiles('Net-a-porter',config.user)],
         'cafe najjar' : [5994018,21593623,profiles('Starcom',config.user)],
-        'toyota retail' : [8616571,22115836,profiles('ALJ',config.user)]
+        'toyota retail' : [8616571,22115836,profiles('ALJ',config.user)],
+        'siniora' : [8718589,22466140,profiles('Starcom',config.user)]
     }
     try:
         aid=choices[x][0]
