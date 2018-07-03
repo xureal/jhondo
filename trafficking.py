@@ -78,7 +78,7 @@ for j in range(2,row_count+1,1): #Loop through all of the placements on the test
     feed_placement_name = sheet['A'+str(j)].value #Get placement name from the feed
     print('Feed placement name - ' + feed_placement_name)
 
-    if profile_id == dictionaries.profiles('Visa',config.user):
+    if profile_id == dictionaries.profiles('Visa',config.user) or profile_id == dictionaries.profiles('Samsung',config.user):
         ad_name = sheet['H'+str(j)].value
     else:
         ad_name = feed_placement_name
