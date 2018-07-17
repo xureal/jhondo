@@ -51,6 +51,7 @@ def advertisers(x):
         'ariel' : [4457598,4585192,profiles('Starcom',config.user)],
         'bank audi' : [4092856,20016259,profiles('Starcom',config.user)],
         'beitmisk' : [4079501,2743324,profiles('Starcom',config.user)],
+        'bmw parent' : [6355536,None,profiles('Zenith',config.user)],
         'bmw dubai' : [6356828,9481250,profiles('Zenith',config.user)],
         'bmw ksa' : [6355538,9326426,profiles('Zenith',config.user)],
         'bmw abu dhabi' : [6344670,9615179,profiles('Zenith',config.user)],
