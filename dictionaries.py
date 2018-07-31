@@ -132,7 +132,8 @@ def advertisers(x):
         'siniora' : [8718589,22466140,profiles('Starcom',config.user)],
         'ikea' : [8546187,21872829,profiles('Starcom',config.user)],
         'al tayyar' : [8701908,22428507,profiles('Starcom',config.user)],
-        'swatch' : [4408088,4448718,profiles('Starcom',config.user)]
+        'swatch' : [4408088,4448718,profiles('Starcom',config.user)],
+        'cerelac' : [8239055,20831883,profiles('Nestle',config.user)]
     }
     try:
         aid=choices[x][0]
