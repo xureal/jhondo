@@ -134,7 +134,8 @@ def advertisers(x):
         'al tayyar' : [8701908,22428507,profiles('Starcom',config.user)],
         'swatch' : [4408088,4448718,profiles('Starcom',config.user)],
         'cerelac' : [8239055,20831883,profiles('Nestle',config.user)],
-        'fasttelco' : [8364424,22781074,profiles('Zenith',config.user)]
+        'fasttelco' : [8364424,22781074,profiles('Zenith',config.user)],
+        'nescafe' : [6773928,9671254,profiles('Nestle',config.user)]
     }
     try:
         aid=choices[x][0]
