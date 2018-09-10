@@ -80,6 +80,8 @@ def advertisers(x):
         'meydan' : [3973441, 2754285, profiles('Starcom',config.user)],
         'mini abu dhabi' : [6678505,20027463,profiles('Zenith',config.user)],
         'mini dubai' : [6678302,10012833,profiles('Zenith',config.user)],
+        'rr abu dhabi' : [8592408,22891443,profiles('Zenith',config.user)],
+        'rr dubai' : [8899614,22985812,profiles('Zenith',config.user)],
         'mini ksa' : [6678303,20028261,profiles('Zenith',config.user)],
         'mini regional' : [6679901,9484715,profiles('Zenith',config.user)],
         'mini qatar' : [6678304,22187186,profiles('Zenith',config.user)],
