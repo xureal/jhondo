@@ -8,7 +8,7 @@ import config
 def profiles(x,y):
 
     choices = {
-        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530, 'Vlad' : 4723923},
+        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530, 'Vlad' : None},
         'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989, 'Ali' : 4529198, 'Vlad' : 4796317},
         'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904, 'Ali' : 4541315, 'Vlad' : 4795709},
         'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150, 'Ali' : None, 'Vlad' : None},
