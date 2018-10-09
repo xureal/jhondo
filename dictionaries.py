@@ -141,9 +141,10 @@ def advertisers(x):
         'cerelac' : [8239055,20831883,profiles('Nestle',config.user)],
         'fasttelco' : [8364424,22781074,profiles('Zenith',config.user)],
         'nescafe' : [6773928,9671254,profiles('Nestle',config.user)],
-        'alhosn': [8935053, 23069934,profiles('Abu Dhabi Tourism',config.user)],
-        'qah': [8947435, 23069154,profiles('Abu Dhabi Tourism',config.user)],
-        'cultural foundation': [8942209, 23069937,profiles('Abu Dhabi Tourism',config.user)]
+        'alhosn': [8935053,23069934,profiles('Abu Dhabi Tourism',config.user)],
+        'qah': [8947435,23069154,profiles('Abu Dhabi Tourism',config.user)],
+        'cultural foundation': [8942209,23069937,profiles('Abu Dhabi Tourism',config.user)],
+        'omt': [8948876,23203273,profiles('Starcom',config.user)]
     }
     try:
         aid=choices[x][0]
