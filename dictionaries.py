@@ -144,7 +144,8 @@ def advertisers(x):
         'alhosn': [8935053,23069934,profiles('Abu Dhabi Tourism',config.user)],
         'qah': [8947435,23069154,profiles('Abu Dhabi Tourism',config.user)],
         'cultural foundation': [8942209,23069937,profiles('Abu Dhabi Tourism',config.user)],
-        'omt': [8948876,23203273,profiles('Starcom',config.user)]
+        'omt': [8948876,23203273,profiles('Starcom',config.user)],
+        'deezer': [8970889,23124501,profiles('Starcom',config.user)]
     }
     try:
         aid=choices[x][0]
