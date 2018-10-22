@@ -148,7 +148,8 @@ def advertisers(x):
         'omt': [8948876,23203273,profiles('Starcom',config.user)],
         'deezer': [8970889,23124501,profiles('Starcom',config.user)],
         'vlad': [8961948,23124648,profiles('Starcom',config.user)],
-        'expo': [8969144,23175965,profiles('Expo',config.user)]
+        'expo': [8969144,23175965,profiles('Expo',config.user)],
+        'eib': [4327530,4147157,profiles('Starcom',config.user)]
     }
     try:
         aid=choices[x][0]
