@@ -150,7 +150,10 @@ def advertisers(x):
         'deezer': [8970889,23124501,profiles('Starcom',config.user)],
         'vlad': [8961948,23124648,profiles('Starcom',config.user)],
         'expo': [8969144,23175965,profiles('Expo',config.user)],
-        'eib': [4327530,4147157,profiles('Starcom',config.user)]
+        'eib': [4327530,4147157,profiles('Starcom',config.user)],
+        'etihad': [6322016,8862321,profiles('Etihad',config.user)],
+        'kit kat': [8229242,21414503,profiles('Nestle',config.user)]
+
     }
     try:
         aid=choices[x][0]
