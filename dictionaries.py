@@ -152,7 +152,8 @@ def advertisers(x):
         'expo': [8969144,23175965,profiles('Expo',config.user)],
         'eib': [4327530,4147157,profiles('Starcom',config.user)],
         'etihad': [6322016,8862321,profiles('Etihad',config.user)],
-        'kit kat': [8229242,21414503,profiles('Nestle',config.user)]
+        'kit kat': [8229242,21414503,profiles('Nestle',config.user)],
+        'mars': [2147985,52614,profiles('Starcom',config.user)]
 
     }
     try:
