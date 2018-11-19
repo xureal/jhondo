@@ -28,6 +28,7 @@ def profiles(x,y):
         'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
         'Kering' : {'Andy': None, 'Varun' : 1471107, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
         'Expo' : {'Andy': None, 'Varun' : 4813704, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
+        'Oracle' : {'Andy': None, 'Varun' : 4774904, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None}
  }
     try:
         profile_id = choices[x][y]
@@ -153,7 +154,8 @@ def advertisers(x):
         'eib': [4327530,4147157,profiles('Starcom',config.user)],
         'etihad': [6322016,8862321,profiles('Etihad',config.user)],
         'kit kat': [8229242,21414503,profiles('Nestle',config.user)],
-        'mars': [2147985,52614,profiles('Starcom',config.user)]
+        'mars': [2147985,52614,profiles('Starcom',config.user)],
+        'oracle': [8878356,23489239,profiles('Starcom',config.user)]
 
     }
     try:
