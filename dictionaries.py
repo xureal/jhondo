@@ -155,7 +155,8 @@ def advertisers(x):
         'etihad': [6322016,8862321,profiles('Etihad',config.user)],
         'kit kat': [8229242,21414503,profiles('Nestle',config.user)],
         'mars': [2147985,52614,profiles('Starcom',config.user)],
-        'oracle': [8878356,23489239,profiles('Oracle',config.user)]
+        'oracle': [8878356,23489239,profiles('Oracle',config.user)],
+        'optifast': [8210979,20733652,profiles('Nestle',config.user)]
 
     }
     try:
