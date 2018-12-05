@@ -38,7 +38,7 @@ for creative in creative_set: #Go through all of the creatives in the set and ch
         match = re.search(sizePattern, creative).group()
         size_set.add(match)
     except AttributeError:
-        error_flag = 1
+        #error_flag = 1
         print('Couldn\'t find the size for the following creative - ' + str(creative))
 
 if error_flag == 0: #Check if all of the creative names on testtest have a correct size

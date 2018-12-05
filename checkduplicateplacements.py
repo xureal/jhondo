@@ -52,8 +52,11 @@ workbook = openpyxl.load_workbook(config.feed_path)
 sheet = workbook.get_sheet_by_name(config.feed_sheet)
 row_count = 0
 duplicate_count = 0
+missing_count = 0
 dcm_placements_name = []
+dcm_creatives_name = []
 duplicate_placements = []
+missing_creatives = set()
 new_placements = []
 sdates_string = []
 sdates_date = []
@@ -62,6 +65,7 @@ edates_date = []
 
 fetch_dcm_campaign = DFA.campaigns().get(profileId=profile_id,id=campaign_id).execute() #Fetch the campaign from DCM by ID
 fetch_dcm_placement = DFA.placements().list(profileId=profile_id,campaignIds=campaign_id,advertiserIds=advertiser_id,archived=False).execute() #Fetch the placement from the DCM campaign by name
+fetch_dcm_creative = DFA.creatives().list(profileId=profile_id,campaignId=campaign_id,advertiserId=advertiser_id,archived=False).execute() #Fetch the placement from the DCM campaign by name
 
 
 #Go through the temp directory and find the upload sheet, then go through all of the start and end date and add to list
@@ -103,18 +107,35 @@ print('\n')
 for p in range(0,len(fetch_dcm_placement['placements']),1):
     dcm_placements_name.append(fetch_dcm_placement['placements'][p]['name'])
 
+for x in range(0,len(fetch_dcm_creative['creatives']),1):
+    dcm_creatives_name.append(fetch_dcm_creative['creatives'][x]['name'])
+
 for i in range(1,sheet.max_row,1): #Find the total number of non-empty rows in the testtest sheet
     if sheet['A'+str(i)].value!=None and sheet['A'+str(i)].value!='':
         row_count += 1
 
 for j in range(2,row_count+1,1):
     feed_placement_name = sheet['A'+str(j)].value #Get placement name from the feed
+    feed_creative_name = sheet['B'+str(j)].value #Get placement name from the feed
 
     if feed_placement_name in dcm_placements_name: #Compare the placement names on the testtest sheet with the ones in the DCM campaign
         duplicate_placements.append(feed_placement_name)
         duplicate_count += 1 #If placement is found in the DCM campaign increment the duplicate count
     else:
         new_placements.append(feed_placement_name)
+    
+    if not feed_creative_name in dcm_creatives_name:
+        missing_creatives.add(feed_creative_name)
+        missing_count += 1
+
+if missing_count > 0:
+    print('Some of the creatives on testtest are missing from the campaign - upload the below creatives to the campaign before continuing')
+    print('Total missing creatives - ' + str(missing_count))
+    for z in missing_creatives:
+        print(z)
+else:
+    print('All of the creatives on the feed are already in the DCM campaign')
+
 
 if duplicate_count > 0: #Display the below is there are any duplicate placements
     print('Some of the placements in the feed already exist in DCM, enter y to print the placements names or press enter to exit')
