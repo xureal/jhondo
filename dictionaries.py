@@ -27,7 +27,7 @@ def profiles(x,y):
         'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035, 'Vlad' : 4796320, 'Jade' : 4842596},
         'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
         'Kering' : {'Andy': None, 'Varun' : 1471107, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Expo' : {'Andy': None, 'Varun' : 4813704, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
+        'Expo' : {'Andy': None, 'Varun' : 4813704, 'Janani' : 4839730, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
         'Oracle' : {'Andy': None, 'Varun' : 4774904, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None}
  }
     try:
