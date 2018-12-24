@@ -8,27 +8,27 @@ import config
 def profiles(x,y):
 
     choices = {
-        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530, 'Vlad' : 4774182, 'Jade' : 4841681},
-        'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989, 'Ali' : 4529198, 'Vlad' : 4796317, 'Jade' : 4849765},
-        'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904, 'Ali' : 4541315, 'Vlad' : 4795709, 'Jade' : 4842593},
-        'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Reebok' : {'Andy': 3038017, 'Varun' : 3033621, 'Janani' : 3034081, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'EA' : {'Andy': 2556446, 'Varun' : 2559822, 'Janani' : 4126377, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Kraft' : {'Andy': 4271839, 'Varun' : 4284476, 'Janani' : 4261017, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Etihad' : {'Andy': 1967569, 'Varun' : 1729030, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Citibank' : {'Andy': 2649058, 'Varun' : 2646069, 'Janani' : 2794746, 'Ali' : None, 'Vlad' : None, 'Jade' : 4849357},
-        'ALJ' : {'Andy': 2907526, 'Varun' : 2904780, 'Janani' : 2903983, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Net-a-porter' : {'Andy': 2912422, 'Varun' : 2914609, 'Janani' : 2914607, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Nestle' : {'Andy': 4288811, 'Varun' : 4291247, 'Janani' : 4290977, 'Ali' : None, 'Vlad' : None, 'Jade' : 4847128},
-        'Mondelez' : {'Andy': 4003138, 'Varun' : 4001486, 'Janani' : 4004266, 'Ali' : 4491075, 'Vlad' : None, 'Jade' : 4842599},
-        'Maserati' : {'Andy': 4132905, 'Varun' : 4148575, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605, 'Ali' : 4532032, 'Vlad' : 4796900, 'Jade' : 4818957},
-        'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106, 'Vlad' : 4795712, 'Jade' : 4842602},
-        'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035, 'Vlad' : 4796320, 'Jade' : 4842596},
-        'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Kering' : {'Andy': None, 'Varun' : 1471107, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Expo' : {'Andy': None, 'Varun' : 4813704, 'Janani' : 4839730, 'Ali' : None, 'Vlad' : None, 'Jade' : None},
-        'Oracle' : {'Andy': None, 'Varun' : 4774904, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None}
+        'Starcom' : {'Andy': 1937694, 'Varun' : 911682, 'Janani' : 2744611, 'Ali' : 4511530, 'Vlad' : 4774182, 'Jade' : 4841681, 'Dea' : None},
+        'Zenith' : {'Andy': 2763125, 'Varun' : 913440, 'Janani' : 2871989, 'Ali' : 4529198, 'Vlad' : 4796317, 'Jade' : 4849765, 'Dea' : None},
+        'Visa' : {'Andy': 1970754, 'Varun' : 2871110, 'Janani' : 2795904, 'Ali' : 4541315, 'Vlad' : 4795709, 'Jade' : 4842593, 'Dea' : None},
+        'Adidas' : {'Andy': 2649258, 'Varun' : 2654502, 'Janani' : 4044150, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Reebok' : {'Andy': 3038017, 'Varun' : 3033621, 'Janani' : 3034081, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'EA' : {'Andy': 2556446, 'Varun' : 2559822, 'Janani' : 4126377, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Kraft' : {'Andy': 4271839, 'Varun' : 4284476, 'Janani' : 4261017, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Etihad' : {'Andy': 1967569, 'Varun' : 1729030, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Citibank' : {'Andy': 2649058, 'Varun' : 2646069, 'Janani' : 2794746, 'Ali' : None, 'Vlad' : None, 'Jade' : 4849357, 'Dea' : None},
+        'ALJ' : {'Andy': 2907526, 'Varun' : 2904780, 'Janani' : 2903983, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Net-a-porter' : {'Andy': 2912422, 'Varun' : 2914609, 'Janani' : 2914607, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Nestle' : {'Andy': 4288811, 'Varun' : 4291247, 'Janani' : 4290977, 'Ali' : None, 'Vlad' : None, 'Jade' : 4847128, 'Dea' : None},
+        'Mondelez' : {'Andy': 4003138, 'Varun' : 4001486, 'Janani' : 4004266, 'Ali' : 4491075, 'Vlad' : None, 'Jade' : 4842599, 'Dea' : None},
+        'Maserati' : {'Andy': 4132905, 'Varun' : 4148575, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Abu Dhabi Tourism' : {'Andy': 4197959, 'Varun' : 4172892, 'Janani' : 4187605, 'Ali' : 4532032, 'Vlad' : 4796900, 'Jade' : 4818957, 'Dea' : 4689179},
+        'McDonalds' : {'Andy': 4280186, 'Varun' : 4256139, 'Janani' : 4263925, 'Ali' : 4509106, 'Vlad' : 4795712, 'Jade' : 4842602, 'Dea' : None},
+        'Dubai Tourism' : {'Andy': 4007225, 'Varun' : 4113848, 'Janani' : 4097083, 'Ali' : 4532035, 'Vlad' : 4796320, 'Jade' : 4842596, 'Dea' : None},
+        'Samsung' : {'Andy': None, 'Varun' : None, 'Janani' : 4337169, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Kering' : {'Andy': None, 'Varun' : 1471107, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Expo' : {'Andy': None, 'Varun' : 4813704, 'Janani' : 4839730, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None},
+        'Oracle' : {'Andy': None, 'Varun' : 4774904, 'Janani' : None, 'Ali' : None, 'Vlad' : None, 'Jade' : None, 'Dea' : None}
  }
     try:
         profile_id = choices[x][y]
